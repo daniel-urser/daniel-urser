@@ -1,0 +1,93 @@
+label{margin-top: 40px;}
+
+ body{background-image: url("/home/daniellinux/Documentos/codigos/imagens/fundo_de_tela.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+.menu ul li{background-color:green;
+color:whitesmoke;
+float: left;
+width: 200px;
+height: 40px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+font-size: 25px; 
+cursor: pointer;
+}
+.menu ul li:hover{
+    background-color:#8ae6a2; 
+    cursor: pointer;
+}
+.menu ul{padding: 0;}
+.menu ul ul{display: none;}
+.menu ul li:hover > ul{display: block;} 
+.menu ul ul li:hover{ background-color:#e6d3d7 ;}
+
+h1{color: #b5b3ae;
+text-align: center;} 
+
+
+
+
+header{ float: right;
+    border:1px solid black;
+    width:800px; height: 420px;
+    background-color: blanchedalmond;
+    background-image: url(/home/daniellinux/Documentos/codigos/imagens/logo.png );
+   
+    background-size:cover; 
+    display: inline;
+}
+    body{
+        background-color: brown;
+    }
+    h1{ text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;}
+   
+
+ *{margin:0; 
+    paddin:0;}
+
+    body{background-color:#3d5a94}
+
+    #check{display: none;}
+    #icone{cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;}
+
+    .barra{background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: .2s linear;
+    left:-300px;}
+    
+    nav{width: 100%;
+    position: absolute;
+    top: 60px;
+    }
+.pic1{margin-left: 280px;}
+    nav a{ text-decoration: none;}
+    .link{background-color: #494950;
+    padding: 20px;
+    font-family: ARIAL;
+    font-size: 12pt;
+    transition: .all 2s linear;
+    color:#f4f4f9; 
+    border-bottom:  2px solid #222;  }
+
+    .link:hover{background-color: #050542;}
+
+     #check:checked ~ .barra{transform:translateX(300px);}
+     #check:checked ~ .barra nav a.link{
+         opacity: 1;
+         margin-top: 0;
+         transition-delay: .2s;
+     }
+
+
+
