@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @daniel-gauche
+- 👋 Hi, I’m @rolim_daniel
 - 👀 I’m interested in learning and sharing some little projects that i've made in a couple of months,  🌱 I’m currently learning  web development i am still a student in web development,
 so be patience.. i intend to have a degree in  analist and software development , but i in the second semester. anyway, i am using this repository to share something.
 -
