@@ -1,0 +1,17 @@
+	*{padding: 0; margin: 0;}
+body{background-image: url("/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/imagens/good_place_for_coffee-600x400.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} 
+
+
+	h1{text-align: center;}
+header{border: 1px solid black; width: 100%; height: auto;background-color: black;}
+img{border-radius: 50%; width: 200px; height: 200px;}
+.apresentacao{font-family: 'Corinthia', cursive; color: white;} 
+ul{}
+li{color: white;display: inline-block; padding: 10px;list-style: none;} 
+li:hover{color: brown;  background-color:whitesmoke; transition-delay: 0.1s;}
+
+ul:hover{cursor: pointer;} 
+
+.carrinho{color: white; width: 40px; height: 40px; cursor: pointer;transform: translate(100px);} 
+label{color: white;} 
+a[href]{color: white;}
