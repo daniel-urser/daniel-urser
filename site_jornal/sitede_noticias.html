@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+
+*{margin: 0; padding: 0;}
+html{
+background-color: rgb(219, 210, 210);
+
+}
+
+
+header{width: 100%; height: 150px; background-color: orange; border: 1px solid black;}
+
+ul li{display: inline-block; padding: 20px; cursor: pointer; }
+
+li::after{
+
+	content: "";
+	display: block;
+	background-color: white;
+	height: 1px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: all 0.3s;
+}
+li:hover:after{width: 100%;}
+.icone_cat{position: absolute; left: 650px; border-radius: 100%;}
+
+.nome_do_site{transform: translate(550px);}
+
+
+img{padding: 30px; border-top-left-radius: 40px;}
+img:hover{transform: scale(1.2); transition: all .2s;}
+/**img:not(.){transform: scale(1.2);}**/
+label{color: white; position: absolute; left: 120px; bottom: 40px; font-size: 50px;}
+.container{position: relative;}
+.conteudo{position: absolute; bottom: 80px; color: white; left: 30px;}
+.container2{position: relative;}
+.conteudo2{position: absolute; bottom: 100px ; left: 30px; color: white;}
+.container3{position: relative;}
+.conteudo3{position: absolute; bottom: 120px; left: 30px; color: white;}
+.container4{ position: relative;} 
+.conteudo4{position: absolute; bottom: 100px; left: 30px; color: white;}
+.container5{ position: relative;}
+.conteudo5{position: absolute; bottom: 100px; left: 30px; color: white;}
+
+a{color: white;}
+
+
+	</style>
+
+
+
+
+
+</head>
+<body>
+
+<header>
+
+<h1 class="nome_do_site">NOTICIAS FELINAS</h1>
+<hr>
+	<img src="/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/site_jornal/icones/gatinho.jpeg" width="90px" class="icone_cat">
+<ul>
+
+<a href="sitede_noticias.html"><li>home</li></a>
+<li>internacional</li>
+<li>moda</li>
+<li>dia-a-dia</li>
+<li>bem estar</li>
+
+
+
+
+</ul>
+</header>
+<div class="container">
+
+<img src="/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/site_jornal/imagem/woman-g875070524_1920.jpg" width="600px" class="imgp1">
+<div class="conteudo">
+	<a href="site_noticiasparte2.html">
+	<h1 class="legendas">Como conseguir um emprego <br>em meio a pandemia</h1></a>
+
+</div>
+</div>
+<div class="container2">
+
+<img src="/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/site_jornal/imagem/finch-gd57d14c9e_1920.jpg" width="600px"> 
+
+<div class="conteudo2">
+	<a href="">
+	<h1 class="legendas2">os passaros estao diminuindo?</h1></a>
+	</div>
+</div>
+<div class="container3">
+<img src="/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/site_jornal/imagem/elephant-g6330fe2cf_1920.jpg" width="600px">
+<div class="conteudo3">
+	<a href="">
+	<h1 class="legendas3"> os elefantes vao entrar em extinção?</h1></a>
+</div>
+</div>
+<div class="container4">
+<img src="/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/site_jornal/imagem/animal-ga45b8fe4f_1920.jpg" width="600px">
+<div class="conteudo4">
+
+	<a href="">
+	<h1 class="legendas4">como saber o que sente seu gato</h1>
+</a>
+</div>
+</div>
+<div class="container5">
+
+<img src="/home/daniellinux/Área de Trabalho/frontend/projetos-para-github/site_jornal/imagem/love-g44a9818ba_1920.jpg" width="600px"> 
+
+<div class="conteudo5">
+	<a href="">
+	<h1 class="legendas5">É possivel  ser feliz no amor?</h1></a>
+	</div>
+<script type="text/javascript">
+	
+let nomeAtributo=document.getElementsByClassName("nome_do_site")[0]
+nomeAtributo.getAttribute()
+console.log(nomeAtributo)
+
+</script>
+
+</body>
+</html>
