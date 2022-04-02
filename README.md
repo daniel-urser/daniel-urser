@@ -3,7 +3,7 @@
 so be patience.. i intend to have a degree in  analist and software development , but i in the second semester. anyway, i am using this repository to share something.
 -
 - 💞️ my dream is someday work on google.
-- 📫 How to reach me :Rododaniel@gmail.com
+- 📫 How to contact me :Rododaniel@gmail.com
 
 <!---
 daniel-urser/daniel-gauche is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
