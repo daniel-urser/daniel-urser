@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+		*{padding: 0; margin: 0;}
+
+
+
+.video-m{position: fixed; z-index: 1;}
+.titulo{ position: relative; z-index: 0; 
+
+	text-align: center; opacity: 0.8;}
+
+
+li::after{
+	content: "";
+display: block;
+	background-color: red;
+	height: 1px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: all 0.3s;
+} 
+li:hover::after{width: 100%;}
+
+nav{background-color: black; height: 100px; width: 100%;  position: relative; margin-top: 20px;}
+nav ul li{color: whitesmoke;float: left; padding: 20px; list-style: none;}
+
+
+body{background: url("/home/daniellinux/Downloads/People - 84973 (2).mp4");}
+
+video{width:100%; position: fixed;}
+
+
+
+h1{color: white; position: absolute; margin-top: 50px; 
+ text-align: center; transform: translateX(600px);cursor: pointer;}
+h1::after{
+	content: "";
+display: block;
+	background-color: red;
+	height: 1px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: all 0.3s;
+} 
+h1:hover::after{width: 100%; }
+
+
+
+	</style>
+</head>
+<body>
+<header>
+	<nav>
+		
+<ul>
+	
+<li>HOME</li>
+<li>CANAIS</li> 
+<li>CONTATO</li>
+
+</ul>
+
+
+
+
+
+	</nav>
+	</header>
+
+<body>
+	
+		
+
+<video autoplay muted loop>
+	<source src="/home/daniellinux/Downloads/People - 84973 (2).mp4" type="">
+
+
+
+
+</video>
+<h1>Entre</h1>
+		
+</body>
+
+
+
+
+<script type="text/javascript">
+	
+
+
+</script>
+</body>
+</html>
