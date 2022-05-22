@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+		
+body{
+
+background-color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#counter{
+color: white;
+font-size: 40px;
+}
+
+
+
+
+	</style>
+</head>
+<body style="text-align: center;">
+<div style="width:200px">
+	
+<div id="counter"></div>
+
+<hr id="hr" style="width :10%; margin-left: 0;">
+
+</div>
+
+
+
+<script type="text/javascript">
+	
+let counts= setInterval(update,40);
+let upto=0;
+//let width;
+function update(){
+	const count= document.getElementById("counter")
+
+	const hr= document.getElementById("hr");
+
+++upto;
+count.innerHTML="LOADING "+ upto+" %"
+hr.style.width= upto+"%";
+if(upto===100){
+	clearInterval(counts)
+	count.innerHTML="DONE !"
+}
+
+
+
+}
+
+
+
+
+
+</script>
+</body>
+</html>
