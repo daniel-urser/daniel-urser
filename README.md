@@ -10,4 +10,4 @@ daniel-urser/daniel-gauche is a ✨ special ✨ repository because its `README.m
 You can click the Preview link to take a look at your changes.
 --->  
 
-in the menu_de_longin.html , as you can see, is just a little login menu. you dont liked my style? be my guess, change it.
+in the menu_de_longin.html , as you can see, is just a little login menu. you dont liked my style? be my guest, change it.
