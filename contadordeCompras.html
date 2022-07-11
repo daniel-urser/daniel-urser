@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style type="text/css">
+	
+#btn1{position: relative; top: 200px; width: 70px;}
+#btn2{position: relative; top: 200px; left: 270px; width: 70px;}
+
+	img{width: 200px; margin-left: 130px;}
+}
+</style>
+
+
+</head>
+<body>
+<div class="btoes">
+<button id="btn1" onclick="incrementa()">+</button>
+<button id="btn2" onclick="decrementa()">-</button>
+</div>
+<h2>quantidade:</h2>
+<h1 id="mostrarNum"></h1>
+<h2 id="preco"></h2>
+<img src="/home/daniellinux/Downloads/capa_os_sete_amuletos_2.png">
+<br>
+<button onclick="comprarProdut()">Comprar</button>
+<h2>valor final:</h2>
+<h2 id="precoSai"></h2>
+
+<script type="text/javascript">
+		
+var count=1
+const preco=document.getElementById("preco")
+preco.textContent=` preço unit. 14.50 reais`
+const precoSai=document.getElementById("precoSai")
+function incrementa(){
+	
+	
+	const buton1=document.getElementById('btn1')
+const mostrar= document.getElementById('mostrarNum')
+
+mostrar.textContent=count++
+
+}
+
+
+function decrementa(){
+
+	
+const buton2=document.getElementById('btn2')
+const mostrar= document.getElementById('mostrarNum')
+mostrar.textContent=count--
+
+if(count<1){mostrar.textContent="-"}
+if(count=0){mostrar.textContent=count-14.50 +" reais"}
+}
+function comprarProdut(){
+
+	if(count>1){precoSai.textContent=(count*14.50)-14.50 +" reais"}
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
