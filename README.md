@@ -1,13 +1,14 @@
 - 👋 Hi, I’m @rolim_daniel
-- 👀 I’m interested in learning and sharing some little projects that i've made in a couple of months,  🌱 I’m currently learning  web development i am still a student in web development,
-so be patience.. i intend to have a degree in  analist and software development , but i in the second semester. anyway, i am using this repository to share something.
--
+I have some knowledge in these languages :
+JavaScript
+Python3
+
+
+- 👀 I’m sharing some little projects that i've made in a couple of months,  🌱 I have knowledge in web dev as well, app developments, build some projects, like  apps for androids, 
+so be patience.. i intend to have a degree in  analist and software development , 
 - 💞️ my dream is someday work on google.
 - 📫 How to contact me :rododaniel@gmail.com
 
-<!---
-daniel-urser/daniel-gauche is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->  
+
 
 in the menu_de_longin.html , as you can see, is just a little login menu. you dont liked my style? be my guest, change it.
