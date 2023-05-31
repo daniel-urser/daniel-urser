@@ -10,7 +10,10 @@ import { Card } from 'react-native-paper';
 
 export default function App() {
   return (
+    
     <View style={styles.container}>
+    <Text style={styles.texto}>selecione o serviço:</Text>
+    
 <Image style={styles.img}source={require('./medico.png')} />
 
       <Text style={styles.paragraph}>
@@ -22,9 +25,19 @@ export default function App() {
       <Text style={styles.paragraph}>
         psicologo
       </Text>
-      <Card>
-        <AssetExample />
-      </Card>
+
+       <Text style={styles.paragraph}>
+        pneumologista
+      </Text>
+       <Text style={styles.paragraph}>
+        fonoaudiologo
+      </Text>
+      <Text style={styles.paragraph}>
+        dentista
+      </Text>
+       <Text style={styles.paragraph}>
+        nutricionista
+      </Text>
     </View>
   );
 }
@@ -32,7 +45,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-  flexDirection:'row-reverse',
+  flexDirection:'column',
   
   },
   paragraph: {
@@ -44,8 +57,13 @@ const styles = StyleSheet.create({
   img:{
 
 height:30,
-width:30
+width:30,
+marginLeft:150
+  },
 
-  }
+texto:{marginBottom:20,
+fontWeight: 'bold',}
+
+
 });
 
